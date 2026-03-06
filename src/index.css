@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+.f1-grid {
+  /* Размер для мобилок (до 768px) */
+  background-size: 50px 50px !important;
+}
+
+@media (min-width: 768px) {
+  .f1-grid {
+    /* Размер для планшетов и десктопов */
+    background-size: 60px 60px !important;
+  }
+}
