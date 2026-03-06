@@ -1,16 +1,44 @@
-# React + Vite
+# 🏎️ Singapore Grand Prix Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивное веб-приложение, посвященное легендарной ночной гонке Формулы-1 в Сингапуре. Проект демонстрирует работу с динамическими данными, кастомную дизайн-систему и современную верстку.
 
-Currently, two official plugins are available:
+[** Посмотреть проект вживую**](https://marygeraska.github.io/singapore-f1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+![Main Screen](./screenshots/preview.png) 
+*Скриншот главной страницы с футуристичной сеткой и Hero-секцией*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Особенности проекта
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Custom Design System**: Централизованное управление темами (цвета, шрифты, сетка) через `theme.js`.
+- **Dynamic Grid Layout**: Футуристичная фоновая сетка, которая бесшовно объединяет все секции сайта.
+- **Unsplash API Integration**: Автоматическая подгрузка актуальных фотографий гонки, болидов и городской архитектуры Сингапура.
+- **Responsive Design**: Полная адаптивность от мобильных устройств до широкоформатных мониторов.
+- **Glassmorphism UI**: Использование эффектов прозрачности и блюра для создания эффекта глубины.
+
+##  Стек технологий
+
+- **Core**: [React](https://react.dev) + [Vite](https://vitejs.dev)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Data**: [Unsplash API](https://unsplash.com)
+- **State & Theme**: React Context API
+- **Deployment**: GitHub Pages
+
+##  Запуск локально
+
+Если вы хотите запустить проект у себя на компьютере:
+
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/marygeraska/singapore-f1.git
+
+2. **Установите зависимости:**
+   `npm install`
+
+3. **Настройка API ключа:**
+   Создайте в корне проекта файл `.env` и добавьте туда ваш ключ:
+   ```env
+   VITE_UNSPLASH_ACCESS_KEY=ВАШ_КЛЮЧ_ИЗ_UNSPLASH_DASHBOARD
