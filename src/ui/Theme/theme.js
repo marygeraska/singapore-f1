@@ -42,5 +42,9 @@ export const darkTheme = {
     transition-all duration-300
     hover:border-red-500/40
   `,
+  footer: {
+    container: "relative z-10 py-12 border-t border-white/5 bg-[#0B0E13]/80 backdrop-blur-md",
+    text: "text-slate-500 text-sm tracking-widest uppercase",
+  }
 };
 
