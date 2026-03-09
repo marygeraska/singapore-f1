@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero";
 import UrbanGallery from "./sections/UrbanGallery";
 import FormulaGallery from "./sections/FormulaGallery";
+import FormulaGallery from "./sections/Footer";
 import { useTheme } from "./ui/Theme";
 
 export default function App() {
