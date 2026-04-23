@@ -1,44 +1,77 @@
-# 🏎️ Singapore Grand Prix Showcase
+# 🏎️ Singapore Grand Prix Landing
 
-Интерактивное веб-приложение, посвященное легендарной ночной гонке Формулы-1 в Сингапуре. Проект демонстрирует работу с динамическими данными, кастомную дизайн-систему и современную верстку.
+Modern landing page inspired by Formula 1 Singapore Grand Prix  
+Built with focus on neon aesthetics, animations and urban UI
 
-[** Посмотреть проект вживую**](https://marygeraska.github.io/singapore-f1)
+[** Live Demo:**](https://marygeraska.github.io/singapore-f1)
 
----
 
 ![Main Screen](./screenshots/preview.png) 
-*Скриншот главной страницы с футуристичной сеткой и Hero-секцией*
 
----
 
-##  Особенности проекта
 
-- **Custom Design System**: Централизованное управление темами (цвета, шрифты, сетка) через `theme.js`.
-- **Dynamic Grid Layout**: Футуристичная фоновая сетка, которая бесшовно объединяет все секции сайта.
-- **Unsplash API Integration**: Автоматическая подгрузка актуальных фотографий гонки, болидов и городской архитектуры Сингапура.
-- **Responsive Design**: Полная адаптивность от мобильных устройств до широкоформатных мониторов.
-- **Glassmorphism UI**: Использование эффектов прозрачности и блюра для создания эффекта глубины.
+##  Features
 
-##  Стек технологий
+- Neon UI design
+- Animated hero section
+- Image gallery (Unsplash API)
+- Responsive layout
+- Dark theme
 
-- **Core**: [React](https://react.dev) + [Vite](https://vitejs.dev)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Data**: [Unsplash API](https://unsplash.com)
-- **State & Theme**: React Context API
-- **Deployment**: GitHub Pages
+##  Tech stack
 
-##  Запуск локально
+- **React (Hooks)**
+- **Vite**
+- **Tailwind CSS** 
+- **Unsplash API**
+- **Context API (theme)**
+- **GitHub Pages (deployment)**
 
-Если вы хотите запустить проект у себя на компьютере:
+##  What I focused on
 
-1. **Клонируйте репозиторий:**
+- Visual hierarchy
+- UI consistency
+- Smooth interactions
+- Modern landing design
+
+##  Setup
+
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/marygeraska/singapore-f1.git
+   ```
 
-2. **Установите зависимости:**
-   `npm install`
+2. **Go to the project folder:**
+  ```bash
+   cd singapore-f1 
+   ```
 
-3. **Настройка API ключа:**
-   Создайте в корне проекта файл `.env` и добавьте туда ваш ключ:
-   ```env
-   VITE_UNSPLASH_ACCESS_KEY=ВАШ_КЛЮЧ_ИЗ_UNSPLASH_DASHBOARD
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Create .env and add new key**
+   ```bash
+   VITE_UNSPLASH_ACCESS_KEY=your_key_here
+   ```
+5. **Run the project:**
+   ```bash
+   npm run dev
+   ```
+## Note
+   This project uses Unsplash API and is intended for educational purposes.
+
+## 🇷🇺 Краткое описание
+
+Лендинг, вдохновлённый гонкой Singapore Grand Prix (Formula 1).
+
+Основные особенности:
+
+неоновый UI и тёмная тема
+анимированный hero-блок
+галерея с изображениями (Unsplash API)
+адаптивный дизайн
+система тем
+
+Проект демонстрирует навыки создания современных интерфейсов, работы с API и UI/UX дизайна.
